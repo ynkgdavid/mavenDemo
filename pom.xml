@@ -22,4 +22,57 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-javadoc-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>attach-javadocs</id>
+					<goals>
+						<goal>jar</goal>
+					</goals>
+				</execution>
+			</executions>
+		</plugin>
+		
+		<plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.1</version>
+            <configuration>
+                <fork>true</fork>
+                <executable>C:\Program Files (x86)\Java\jdk1.8.0_231\bin\javac.exe</executable>
+            </configuration>
+        </plugin>
+		
+	</plugins>
+</build>
+
+<distributionManagement>
+    <repository>
+        <id>mavenyang</id>
+        <name>release softx</name>
+        <url>http://172.17.0.3:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>mavenyang</id>
+        <name>snapshot softx</name>
+        <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+  
+<repositories>
+  <repository>
+    <id>maven-group</id>
+    <url>http://172.17.0.3:8081/repository/maven-group/</url>
+  </repository>
+</repositories>
+
+
 </project>
+  
+  
+

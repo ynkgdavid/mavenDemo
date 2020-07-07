@@ -40,7 +40,7 @@
 <repositories>
   <repository>
     <id>maven-group</id>
-    <url>https://172.17.0.3/repository/maven-group/</url>
+    <url>https://192.168.43.10/repository/maven-group/</url>
   </repository>
 </repositories>
 

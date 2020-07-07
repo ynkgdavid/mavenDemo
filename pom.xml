@@ -28,12 +28,12 @@
     <repository>
         <id>maven</id>
         <name>release softx</name>
-        <url>https://172.17.0.3/repository/maven-releases/</url>
+        <url>https://192.168.43.10/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>maven</id>
         <name>snapshot softx</name>
-        <url>https://172.17.0.3/repository/maven-snapshots/</url>
+        <url>https://192.168.43.10/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   

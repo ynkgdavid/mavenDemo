@@ -28,19 +28,19 @@
     <repository>
         <id>maven</id>
         <name>release softx</name>
-        <url>https://192.168.43.10/repository/maven-releases/</url>
+        <url>https://yangxiaowei.addpchina.com/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>maven</id>
         <name>snapshot softx</name>
-        <url>https://192.168.43.10/repository/maven-snapshots/</url>
+        <url>https://yangxiaowei.addpchina.com/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   
 <repositories>
   <repository>
     <id>maven-group</id>
-    <url>https://192.168.43.10/repository/maven-group/</url>
+    <url>https://yangxiaowei.addpchina.com/repository/maven-group/</url>
   </repository>
 </repositories>
 

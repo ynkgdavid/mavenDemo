@@ -4,7 +4,7 @@
 
   <groupId>com.songqin</groupId>
   <artifactId>mavenDemo</artifactId>
-  <version>0.0.2-RELEASE</version>
+  <version>0.0.3-RELEASE</version>
   <packaging>jar</packaging>
 
   <name>mavenDemo</name>
@@ -28,19 +28,19 @@
     <repository>
         <id>maven</id>
         <name>release softx</name>
-        <url>http://172.17.0.3:8081/repository/maven-releases/</url>
+        <url>https://172.17.0.3/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
         <id>maven</id>
         <name>snapshot softx</name>
-        <url>http://172.17.0.3:8081/repository/maven-snapshots/</url>
+        <url>https://172.17.0.3/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
   
 <repositories>
   <repository>
     <id>maven-group</id>
-    <url>http://172.17.0.3:8081/repository/maven-group/</url>
+    <url>https://172.17.0.3/repository/maven-group/</url>
   </repository>
 </repositories>
 
